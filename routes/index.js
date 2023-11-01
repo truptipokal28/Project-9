@@ -52,5 +52,4 @@ routes.get('/productview',productcontroller.productview);
 routes.delete('/productdelete',productcontroller.productdelete);
 routes.put('/productupdate',productcontroller.productupdate);
 
-
 module.exports = routes;
